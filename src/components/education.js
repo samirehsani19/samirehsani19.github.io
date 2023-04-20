@@ -2,7 +2,13 @@ import React from 'react';
 import "./Layout.css";
 import $ from "jquery";
 function Education(props) {
-    $('.topbar-content').fadeOut(500);
+    if($(window).width() < 600){
+        $('.topbar-content').slideUp(300, function(){
+        }).fadeOut({
+            duration: 300,
+            queue: false
+        });
+    }
 
     return (
         <div className='outerContainer'>

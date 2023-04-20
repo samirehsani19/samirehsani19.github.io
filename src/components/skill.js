@@ -2,9 +2,15 @@ import React from 'react';
 import "./Layout.css";
 import $ from "jquery";
 function Skill(props) {
-    $('.topbar-content').fadeOut(500);
-    var data = props.data;
+    if($(window).width() < 600){
+        $('.topbar-content').slideUp(300, function(){
+        }).fadeOut({
+            duration: 300,
+            queue: false
+        });
+    }
 
+    var data = props.data;
     const displayFlex = {
         display:'flex',
         paddingTop: '2rem',

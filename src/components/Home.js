@@ -3,7 +3,13 @@ import background from "./data/backgroundImg.jpg";
 import './Layout.css';
 import $ from "jquery";
 function Home(props){
-    $('.topbar-content').fadeOut(500);
+    if($(window).width() < 600){
+        $('.topbar-content').slideUp(300, function(){
+        }).fadeOut({
+            duration: 300,
+            queue: false
+        });
+    }
 
     const containerStyle = {
         backgroundImage:`url(${background})`,

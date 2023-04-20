@@ -6,8 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFaceSmile, faBars} from '@fortawesome/free-solid-svg-icons';
 
 function HandleBarsMenu(){
-    // $('.topbar-content').css('display', 'flex');
-    $('.topbar-content').fadeToggle(500);
+    $('.topbar-content').slideUp(300, function(){
+    }).fadeToggle({
+        duration: 400,
+        queue: false
+    });
 }
 
 function Layout(){
