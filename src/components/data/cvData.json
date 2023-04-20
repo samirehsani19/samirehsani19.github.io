@@ -1,0 +1,146 @@
+{
+    "About": {
+        "Background": "",
+        "Present": "My name is Samir Ehsani and I am a dotnet developer with three years of working experience. I am a hard-working person that never backs down when it comes to challenging work. I like to challenge myself and to learn new technologies and solve different issues. I am a fast learner because I have a good understanding of technology. I have good communication skills and always do great team work.",
+        "Hobby": "I like to play volleyball and socialize with people during my free time. I also like to do fitness and build muscles to look fit and healthy"
+    },
+    "Image": "../icons/myImage.png",
+    "Title":".Net Developer",
+    "Contact":{
+        "Id": 1,
+        "FirstName": "Samir",
+        "LastName": "Ehsani",
+        "Phone": "0490 86 80 03",
+        "Email": "samirehsani19@gmail.com",
+        "Address": "10 Oleander Street",
+        "Suburb": "Maddington, Perth",
+        "State": "Western Australia"
+    },
+    "Profile": "With almost three years of working experience in .Net/Core, UI design and Microsoft SQL Server.",
+    "Education": {
+        "Date": "2019-2021",
+        "Title": ".Net developer",
+        "College": "Plushögskolan Gothenburg, Sweden",
+        "Description": "The Dotnet developer education contains different courses in programming languages. It has given me a good understanding of different technologies. While studying, I did two periods of workplace training for a product company called Else AB. During the workplace training, I learned how to work in a team, developing API, debugging code, designing UI, building services and participate in stand-up and other meetings.\n\nMe and two of my classmates also developed a small application in Blazor for the company. The purpose of this application was to be used in a small warehouse with a few automatic guided vehicles. The company really liked our application and they offered us all three permanent jobs."
+    },
+    "Experience": {
+        "Date": "2021-present",
+        "Title": "Software Developer",
+        "Company":"Else AB, Gothenburg, Sweden",
+        "Description": "Else AB is a Swedish company, based in Gothenburg. Else is developing software for warehouse management systems such as shuttle system management and AGV (automatic guided vehicle). For the past three years, I have worked with Else and developed tailored solutions for many warehouses. As a developer, I worked with different tasks, such as developing the API, user interface, debugging code, maintaining systems, supporting customers, releasing, installing the systems  and testing.\n\nI have always gotten appreciation for my jobs from my boss and colleagues. Please let me know if you would like to contact Else to hear more about me."
+    },
+    "Skills":[
+        {
+            "Name": "API(REST API)",
+            "Icon": "../icons/api.png"
+        },
+        {
+            "Name": ".NET(CORE)",
+            "Icon": "../icons/dotnet.svg"
+        },
+        {
+            "Name": "ASP.NET MVC",
+            "Icon": "../icons/mvc.png"
+        },
+        {
+            "Name": "BLAZOR",
+            "Icon": "../icons/blazor.png"
+        },
+        {
+            "Name": "C#(OBJECT ORIENTED PROGRAMMING)",
+            "Icon": "../icons/csharp.svg"
+        },
+        {
+            "Name": "UNIT TEST",
+            "Icon": "../icons/test.png"
+        },
+        {
+            "Name": "MICROSOFT SQL SERVER",
+            "Icon": "../icons/sql.svg"
+        },
+        {
+            "Name": "SIGNAL R",
+            "Icon": "../icons/signalR.png"
+        },
+        {
+            "Name": "SWAGGER",
+            "Icon": "../icons/swagger.png"
+        },
+        {
+            "Name": "DOCKER(DOCKER CONTAINER)",
+            "Icon": "../icons/docker.svg"
+        },
+        {
+            "Name": "CD/CI",
+            "Icon": "../icons/cdCi.png"
+        },
+        {
+            "Name": "AZURE",
+            "Icon": "../icons/azure.svg"
+        },
+        {
+            "Name": "GIT",
+            "Icon": "../icons/git.png"
+        },
+        {
+            "Name": "GIT BASH",
+            "Icon": "../icons/bash.png"
+        },
+        {
+            "Name": "HTML",
+            "Icon": "../icons/html.svg"
+        },
+        {
+            "Name": "CSS",
+            "Icon": "../icons/css.svg"
+        },
+        {
+            "Name": "SASS",
+            "Icon": "../icons/sass.svg"
+        },
+        {
+            "Name": "JSON",
+            "Icon": "../icons/json.png"
+        },
+        {
+            "Name": "JAVASCRIPT",
+            "Icon": "../icons/js.svg"
+        },
+        {
+            "Name": "JQUERY",
+            "Icon": "../icons/jquery.svg"
+        },
+        {
+            "Name": "KNOCKOUT JS",
+            "Icon": "../icons/knockout.svg"
+        },
+        {
+            "Name": "JQWIDGETS",
+            "Icon": "../icons/jqwidgets.png"
+        },
+        {
+            "Name": "JIRA",
+            "Icon": "../icons/jira.svg"
+        },
+        {
+            "Name": "POWERSHELL TERMINAL",
+            "Icon": "../icons/powershell.png"
+        },
+        {
+            "Name": "POSTMAN",
+            "Icon": "../icons/postman.png"
+        },
+        {
+            "Name": "AGILE METHODOLOGY",
+            "Icon": "../icons/agile.png"
+        },
+        {
+            "Name": "Webpack",
+            "Icon": "../icons/webpack.svg"
+        },
+        {
+            "Name": "Vscode",
+            "Icon": "../icons/vscode.svg"
+        }
+    ]
+}

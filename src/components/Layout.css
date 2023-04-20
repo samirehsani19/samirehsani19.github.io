@@ -1,0 +1,217 @@
+ /**************************************
+    top bar style start
+***************************************/
+.topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55px;
+    box-shadow: 0px -5px 4px 4px;
+    border-bottom: 2px solid maroon;
+    margin-bottom: 4px;
+}
+
+.topbar-content, .topbar-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: darkmagenta;
+}
+
+.topbar-content, .topbar-title li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.topbar-content li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topbar-content li a:hover{
+    color: rgb(170, 91, 243);
+}
+
+.logoContainer{
+    min-width: 40%;
+    font-size: 25px;
+}
+
+.smileIcon{
+    color: yellow;
+    font-size: 23px;
+    background: #000;
+    border-radius: 50px;
+    border: 0.5px solid #000
+}
+ /**************************************
+    top bar style end
+***************************************/
+
+
+ /**************************************
+    Common style start
+***************************************/
+.outerContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: blueviolet
+}
+
+.innerContainer{
+    width: 80%;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 6px -4px;
+    background: rebeccapurple;
+    color: white;
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.descriptionContainer{
+    font-size: 18px;
+    white-space: pre-wrap;
+    padding: 10px 30px;
+    text-align: start;
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 0px;
+    font-weight: 900px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 9%, #ffecb4 50%, #3a2c1f 75% );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0px 14px;
+    width: 70%;
+}
+
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.itemContainer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px 14px;
+    flex-wrap: wrap;
+}
+ /**************************************
+    Common style end
+***************************************/
+
+.skillContainer:hover{
+    box-shadow: 0px 0px 7px 5px aqua;
+}
+
+.homeContent:hover{
+    box-shadow: 0px 0px 7px 5px aqua;
+}
+
+ /**************************************
+    media roles start
+***************************************/
+@media only screen and (max-width: 750px)  {
+    .topbar-content, .topbar-title{
+        flex-wrap: wrap;
+    }
+
+    .aboutContent{
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: start !important;
+    }
+
+    .contentWrapper{
+        font-size: 11px;
+        width: 90%;
+    }
+
+    .descriptionContainer{
+        font-size: 12px;
+    }
+
+    .title{
+        font-size:  1.5rem !important;
+        padding-bottom: 14px !important;
+    }
+
+}
+
+@media only screen and (min-width: 550px){
+    .bars{display: none;}
+}
+
+@media only screen and (max-width: 550px){
+    .topbar-content{
+        display: none;
+    }
+
+    .bars{
+        display: flex; 
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .topbar-content{
+        flex-direction: column;
+    }
+
+    .topbar-content li{
+        cursor: pointer;
+        margin: 6px 10px;
+        width: 95%;
+        border-radius:8px;
+        box-shadow: 0px 1.5px 8px -7px black;
+    }
+
+    .topbar-content li:hover{
+        box-shadow: 0px 1.5px 8px -4px black;
+    }
+}
+
+@media only screen and (min-width: 550px){
+    .bars{display: none};
+    .topbar-content, .topbar-title{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .topbar-content{
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .homeContent{
+        flex-direction: column;
+    }
+}
+ /**************************************
+    media roles ends
+***************************************/
