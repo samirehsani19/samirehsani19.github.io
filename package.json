@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "samirehsani19",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://samirehsani19.github.io/samirehsani",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "samirehsani -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
