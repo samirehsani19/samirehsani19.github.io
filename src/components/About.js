@@ -1,6 +1,9 @@
 import React from 'react';
 import "./Layout.css";
+import $ from "jquery";
 function About(props) {
+    $('.topbar-content').fadeOut(500);
+
     return (
         <div className='outerContainer'>
             <div className='innerContainer'>

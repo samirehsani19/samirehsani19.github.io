@@ -1,8 +1,10 @@
 import React from "react";
 import background from "./data/backgroundImg.jpg";
 import './Layout.css';
-
+import $ from "jquery";
 function Home(props){
+    $('.topbar-content').fadeOut(500);
+
     const containerStyle = {
         backgroundImage:`url(${background})`,
          width:'100%', position:'absolute', height:'100%', backgroundPosition:'center', 

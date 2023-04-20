@@ -1,42 +1,8 @@
 import React from 'react';
 import "./Layout.css";
+import $ from "jquery";
 function Contact(props) {
-    // const containerStyle = {
-    //     width: '100%',
-    //     display: 'flex',
-    //     justifyContent: 'center',
-    //     background: 'blueviolet',
-    //     position: 'absolute',
-    //     height: '100%'
-    // };
-
-    // const contentStyle ={
-    //     width: '80%',
-    //     borderRadius: '8px',
-    //     margin: '10px',
-    //     boxShadow: '0px 3px 6px -4px',
-    //     background: "rebeccapurple",
-    //     color: 'white',
-    //     fontFamily: 'New Times Romans',
-    //     display: 'flex',
-    //     padding: '20px',
-    // };
-
-    // const titleStyle = {
-    //     color: '#fff',
-    //     textTransform: 'uppercase',
-    //     fontSize: '4rem',
-    //     margin: '0px',
-    //     fontWeight: '900px',
-    //     background: 'linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 9%, #ffecb4 50%, #3a2c1f 75% )',
-    //     WebkitBackgroundClip: 'text',
-    //     WebkitTextFillColor: 'transparent',
-    //     borderBottom: '1px solid',
-    //     borderRadius: '10px',
-    //     marginBottom: '1rem',
-    //     width: '100%',
-    //     padding: '14px'
-    // };
+    $('.topbar-content').fadeOut(500);
 
     const contactStyle = {
         height: '40px',

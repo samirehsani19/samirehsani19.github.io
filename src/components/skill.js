@@ -1,9 +1,8 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 import "./Layout.css";
-
+import $ from "jquery";
 function Skill(props) {
+    $('.topbar-content').fadeOut(500);
     var data = props.data;
 
     const displayFlex = {
