@@ -13,7 +13,7 @@ function Home(props){
     };
 
     const contentStyle = {
-        position:'relative', top:'350px', left:'50%', 
+        position:'relative', top:'400px', left:'50%', 
         transform:'translate(-50%,-50%)', width:'100%', 
         alignItems:'center', display:'flex', justifyContent:'space-around',
         color:'white',
