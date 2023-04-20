@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/samirehsani/static/css/main.1746c696.css",
+    "main.js": "/samirehsani/static/js/main.efbe0213.js",
+    "static/js/787.6a6dafb0.chunk.js": "/samirehsani/static/js/787.6a6dafb0.chunk.js",
+    "static/media/backgroundImg.jpg": "/samirehsani/static/media/backgroundImg.cdb6d16cfec2d5782aad.jpg",
+    "index.html": "/samirehsani/index.html",
+    "main.1746c696.css.map": "/samirehsani/static/css/main.1746c696.css.map",
+    "main.efbe0213.js.map": "/samirehsani/static/js/main.efbe0213.js.map",
+    "787.6a6dafb0.chunk.js.map": "/samirehsani/static/js/787.6a6dafb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1746c696.css",
+    "static/js/main.efbe0213.js"
+  ]
+}
